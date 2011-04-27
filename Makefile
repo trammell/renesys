@@ -2,7 +2,7 @@ usage:
 	@echo "usage: make [clean|install]"
 
 clean:
-	rm -f md.txt
+	rm -f md.txt report.txt
 
 # The proper text starts on Line 30 and goes to Line 21746 (inclusive)
 md.txt: moby-dick.zip
@@ -10,3 +10,4 @@ md.txt: moby-dick.zip
 
 report report.txt: ishmael.pl md.txt
 	perl ishmael.pl md.txt > report.txt
+	egrep '(ishmael|queequeg)' report.txt
