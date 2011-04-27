@@ -2,6 +2,8 @@
 Count me Ishmael
 ================
 
+(http://www.renesys.com/challenge_site/challenge/count_me_ishmael)
+
 One of our employees is obsessed with Moby-Dick (or, The Whale). One day
 she noticed that the names of the novel's two heroes (such as they are)
 share an orthographic peculiarity. Both Ishmael and Queequeg have
